@@ -1,0 +1,23 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "My solutions to advent js event by Midudev",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run --retry 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusticor/adventjs.git"
+  },
+  "author": "augusticor",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/augusticor/adventjs/issues"
+  },
+  "homepage": "https://github.com/augusticor/adventjs#readme",
+  "devDependencies": {
+    "vitest": "1.4.0"
+  }
+}
