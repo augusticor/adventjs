@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My solutions to advent js event by Midudev",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run --retry 1"
