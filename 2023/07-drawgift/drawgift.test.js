@@ -48,7 +48,7 @@ describe("Challenge 7 draw 3d gift", () => {
     expect(drawGift(3, "*")).toBe(expectedCube);
   });
 
-  it("Should return expected cube with level is 4 and symbol ''", () => {
+  it("Should return expected cube with level is 4 and symbol ' '", () => {
     const expectedCube =
       "   ####\n" +
       "  #  ##\n" +
