@@ -15,11 +15,9 @@ function getIndexsForPalindrome(word) {
 
   if (isPalindrome(word)) return [];
 
-  const wordArray = word.split("");
-
   for (let i = 0; i < word.length; i++) {
     for (let j = i + 1; j < word.length; j++) {
-      const newWord = [...wordArray];
+      const newWord = word.split("");
       [newWord[i], newWord[j]] = [newWord[j], newWord[i]];
 
       if (isPalindrome(newWord.join(""))) return [i, j];
